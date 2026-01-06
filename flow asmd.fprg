@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="flow add"/>
+        <attribute name="authors" value="USER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 10:30:40 AM"/>
+        <attribute name="created" value="VVNFUjtVU0VSLVBDOzIwMjYtMDEtMDY7MDk6NDg6MjkgQU07MjEwOA=="/>
+        <attribute name="edited" value="VVNFUjtVU0VSLVBDOzIwMjYtMDEtMDY7MTA6MzA6NDAgQU07MzsyMTk0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="3"/>
+            <assign variable="b" expression="6"/>
+            <output expression="&quot;a=&quot;&amp;a" newline="True"/>
+            <output expression="&quot;b=&quot;&amp;b" newline="True"/>
+            <output expression="&quot;a+b=&quot;&amp;a+b" newline="True"/>
+            <output expression="&quot;a-b=&quot;&amp;a-b" newline="True"/>
+            <output expression="&quot;a*b=&quot;&amp;a*b" newline="True"/>
+            <output expression="&quot;a/b=&quot;&amp;a/b" newline="True"/>
+            <output expression="&quot;a%b=&quot;&amp;a%b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
