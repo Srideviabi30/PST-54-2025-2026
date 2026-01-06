@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="flowchat para"/>
+        <attribute name="authors" value="USER"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-01-06 03:12:38 PM"/>
+        <attribute name="created" value="VVNFUjtVU0VSLVBDOzIwMjYtMDEtMDY7MDM6MDg6MjkgUE07MjExMw=="/>
+        <attribute name="edited" value="VVNFUjtVU0VSLVBDOzIwMjYtMDEtMDY7MDM6MTI6MzggUE07MTsyMjE2"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <input variable="number"/>
+            <if expression="number%2=0">
+                <then>
+                    <output expression="&quot;even number&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;odd number&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
